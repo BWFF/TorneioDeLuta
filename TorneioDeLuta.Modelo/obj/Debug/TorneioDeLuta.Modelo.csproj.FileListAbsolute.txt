@@ -9,3 +9,14 @@ C:\Users\brunow.itgreen\Desktop\TorneioDeLuta\Torneio\TorneioDeLuta\TorneioDeLut
 C:\Users\brunow.itgreen\Desktop\TorneioDeLuta\Torneio\TorneioDeLuta\TorneioDeLuta.Modelo\obj\Debug\TorneioDeLuta.Modelo.csproj.CopyComplete
 C:\Users\brunow.itgreen\Desktop\TorneioDeLuta\Torneio\TorneioDeLuta\TorneioDeLuta.Modelo\obj\Debug\TorneioDeLuta.Modelo.dll
 C:\Users\brunow.itgreen\Desktop\TorneioDeLuta\Torneio\TorneioDeLuta\TorneioDeLuta.Modelo\obj\Debug\TorneioDeLuta.Modelo.pdb
+D:\RepositoriosGitHub\TorneioDeLutaPublic\TorneioDeLuta\TorneioDeLuta.Modelo\bin\Debug\TorneioDeLuta.Modelo.dll.config
+D:\RepositoriosGitHub\TorneioDeLutaPublic\TorneioDeLuta\TorneioDeLuta.Modelo\bin\Debug\TorneioDeLuta.Modelo.dll
+D:\RepositoriosGitHub\TorneioDeLutaPublic\TorneioDeLuta\TorneioDeLuta.Modelo\bin\Debug\TorneioDeLuta.Modelo.pdb
+D:\RepositoriosGitHub\TorneioDeLutaPublic\TorneioDeLuta\TorneioDeLuta.Modelo\bin\Debug\EntityFramework.dll
+D:\RepositoriosGitHub\TorneioDeLutaPublic\TorneioDeLuta\TorneioDeLuta.Modelo\bin\Debug\EntityFramework.SqlServer.dll
+D:\RepositoriosGitHub\TorneioDeLutaPublic\TorneioDeLuta\TorneioDeLuta.Modelo\bin\Debug\EntityFramework.xml
+D:\RepositoriosGitHub\TorneioDeLutaPublic\TorneioDeLuta\TorneioDeLuta.Modelo\bin\Debug\EntityFramework.SqlServer.xml
+D:\RepositoriosGitHub\TorneioDeLutaPublic\TorneioDeLuta\TorneioDeLuta.Modelo\obj\Debug\TorneioDeLuta.Modelo.csproj.CoreCompileInputs.cache
+D:\RepositoriosGitHub\TorneioDeLutaPublic\TorneioDeLuta\TorneioDeLuta.Modelo\obj\Debug\TorneioDeLuta.Modelo.csproj.CopyComplete
+D:\RepositoriosGitHub\TorneioDeLutaPublic\TorneioDeLuta\TorneioDeLuta.Modelo\obj\Debug\TorneioDeLuta.Modelo.dll
+D:\RepositoriosGitHub\TorneioDeLutaPublic\TorneioDeLuta\TorneioDeLuta.Modelo\obj\Debug\TorneioDeLuta.Modelo.pdb

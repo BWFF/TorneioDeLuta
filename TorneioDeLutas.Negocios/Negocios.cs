@@ -168,30 +168,30 @@ namespace TorneioDeLuta.Negocios
                     luta.PercVitoria = (int)Math.Floor(((float)(luta.vitorias / (float)luta.lutas)) * 100);
                 }
 
-                classificados.AddRange(grupoLutando.OrderByDescending(c => c.PercVitoria).Take(2));
+                classificados.AddRange(grupoLutando.OrderByDescending(c => c.PercVitoria & c.qtdArtesMarciais & c.lutas).Take(2));
             }
             else if (fase == "Q")
             {
                 List<Grupos> lutaA = new List<Grupos>();
 
-                lutaA.AddRange(grupo.Where(g => g.Chave == "A").OrderByDescending(g => g.PercVitoria).Take(1));
-                lutaA.AddRange(grupo.Where(g => g.Chave == "B").OrderBy(g => g.PercVitoria).Take(1));
-                classificados.AddRange(RetornaSemiFinalistas(lutaA, 1).OrderByDescending(r => r.PercVitoria).Take(1));
+                lutaA.AddRange(grupo.Where(g => g.Chave == "A").OrderByDescending(g => g.PercVitoria & g.qtdArtesMarciais & g.lutas).Take(1));
+                lutaA.AddRange(grupo.Where(g => g.Chave == "B").OrderBy(g => g.PercVitoria & g.qtdArtesMarciais & g.lutas).Take(1));
+                classificados.AddRange(RetornaSemiFinalistas(lutaA, 1).OrderByDescending(r => r.PercVitoria & r.qtdArtesMarciais & r.lutas).Take(1));
 
                 lutaA.Clear();
-                lutaA.AddRange(grupo.Where(g => g.Chave == "A").OrderBy(g => g.PercVitoria).Take(1));
-                lutaA.AddRange(grupo.Where(g => g.Chave == "B").OrderByDescending(g => g.PercVitoria).Take(1));
-                classificados.AddRange(RetornaSemiFinalistas(lutaA, 2).OrderByDescending(r => r.PercVitoria).Take(1));
+                lutaA.AddRange(grupo.Where(g => g.Chave == "A").OrderBy(g => g.PercVitoria & g.qtdArtesMarciais & g.lutas).Take(1));
+                lutaA.AddRange(grupo.Where(g => g.Chave == "B").OrderByDescending(g => g.PercVitoria & g.qtdArtesMarciais & g.lutas).Take(1));
+                classificados.AddRange(RetornaSemiFinalistas(lutaA, 2).OrderByDescending(r => r.PercVitoria & r.qtdArtesMarciais & r.lutas).Take(1));
 
                 lutaA.Clear();
-                lutaA.AddRange(grupo.Where(g => g.Chave == "C").OrderByDescending(g => g.PercVitoria).Take(1));
-                lutaA.AddRange(grupo.Where(g => g.Chave == "D").OrderBy(g => g.PercVitoria).Take(1));
-                classificados.AddRange(RetornaSemiFinalistas(lutaA, 3).OrderByDescending(r => r.PercVitoria).Take(1));
+                lutaA.AddRange(grupo.Where(g => g.Chave == "C").OrderByDescending(g => g.PercVitoria & g.qtdArtesMarciais & g.lutas).Take(1));
+                lutaA.AddRange(grupo.Where(g => g.Chave == "D").OrderBy(g => g.PercVitoria & g.qtdArtesMarciais & g.lutas).Take(1));
+                classificados.AddRange(RetornaSemiFinalistas(lutaA, 3).OrderByDescending(r => r.PercVitoria & r.qtdArtesMarciais & r.lutas).Take(1));
 
                 lutaA.Clear();
-                lutaA.AddRange(grupo.Where(g => g.Chave == "C").OrderBy(g => g.PercVitoria).Take(1));
-                lutaA.AddRange(grupo.Where(g => g.Chave == "D").OrderByDescending(g => g.PercVitoria).Take(1));
-                classificados.AddRange(RetornaSemiFinalistas(lutaA, 4).OrderByDescending(r => r.PercVitoria).Take(1));
+                lutaA.AddRange(grupo.Where(g => g.Chave == "C").OrderBy(g => g.PercVitoria & g.qtdArtesMarciais & g.lutas).Take(1));
+                lutaA.AddRange(grupo.Where(g => g.Chave == "D").OrderByDescending(g => g.PercVitoria & g.qtdArtesMarciais & g.lutas).Take(1));
+                classificados.AddRange(RetornaSemiFinalistas(lutaA, 4).OrderByDescending(r => r.PercVitoria & r.qtdArtesMarciais & r.lutas).Take(1));
             }
             else if (fase == "S")
             {
@@ -200,11 +200,11 @@ namespace TorneioDeLuta.Negocios
                 List<Grupos> finalista = new List<Grupos>();
 
                 lutas.AddRange(grupo.Where(g => g.ordemClassificao == 1 || g.ordemClassificao == 2));
-                finalista.AddRange(lutas.OrderByDescending(g => g.PercVitoria).Take(1));
+                finalista.AddRange(lutas.OrderByDescending(g => g.PercVitoria & g.qtdArtesMarciais & g.lutas).Take(1));
 
                 lutas.Clear();
                 lutas.AddRange(grupo.Where(g => g.ordemClassificao == 3 || g.ordemClassificao == 4));
-                finalista.AddRange(lutas.OrderByDescending(g => g.PercVitoria).Take(1));
+                finalista.AddRange(lutas.OrderByDescending(g => g.PercVitoria & g.qtdArtesMarciais & g.lutas).Take(1));
                 foreach (var final in finalista)
                 {
                     final.disputa = 1;
@@ -213,11 +213,11 @@ namespace TorneioDeLuta.Negocios
 
                 lutas.Clear();
                 lutas.AddRange(grupo.Where(g => g.ordemClassificao == 1 || g.ordemClassificao == 2));
-                terceiroQuarto.AddRange(lutas.OrderBy(g => g.PercVitoria).Take(1));
+                terceiroQuarto.AddRange(lutas.OrderBy(g => g.PercVitoria & g.qtdArtesMarciais & g.lutas).Take(1));
 
                 lutas.Clear();
                 lutas.AddRange(grupo.Where(g => g.ordemClassificao == 3 || g.ordemClassificao == 4));
-                terceiroQuarto.AddRange(lutas.OrderBy(g => g.PercVitoria).Take(1));
+                terceiroQuarto.AddRange(lutas.OrderBy(g => g.PercVitoria & g.qtdArtesMarciais & g.lutas).Take(1));
                 foreach (var terceiro in terceiroQuarto)
                 {
                     terceiro.disputa = 3;
@@ -256,7 +256,7 @@ namespace TorneioDeLuta.Negocios
         {
             List<Grupos> listaFinal = new List<Grupos>();
 
-            foreach (var item in grupos.Where(g => g.disputa == disputa).OrderByDescending(g => g.PercVitoria))
+            foreach (var item in grupos.Where(g => g.disputa == disputa).OrderByDescending(g => g.PercVitoria & g.qtdArtesMarciais & g.lutas))
             {
                 item.classificacaoFinal = disputa;
                 listaFinal.Add(item);
