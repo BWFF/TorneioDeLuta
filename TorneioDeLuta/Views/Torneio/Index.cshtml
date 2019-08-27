@@ -1,0 +1,62 @@
+﻿@model IEnumerable<TorneioDeLuta.Modelo.Lutador>
+
+@{
+    ViewBag.Title = "Torneio de Luta";
+}
+
+
+@using (Html.BeginForm("Resultado", "Torneio", "post"))
+{
+    <div class="container">
+        <input class="btn btn-primary" type="submit" id="submitButton" value="Iniciar" name="Iniciar" />
+    </div>
+    <br />
+    <div class="container">
+        Qtd.Lutadores Selecionados: @Model.Where(m => m.selecionado).Count()
+    </div>
+}
+
+<div class="container row pre-scrollable" style="width:auto">
+    @foreach (var item in Model)
+    {
+        <div class="col-lg-2">
+            <div class="card" style="width: 18rem;">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <h6>
+                            @{
+                                var url = Url.Action("Selecionar", "Torneio", new { Id = item.id, check = !item.selecionado }, null);
+                            }
+                            @Html.CheckBox("mycheckbox", item.selecionado, new { onclick = "window.location = '" + url + "'" })
+
+                            <strong> @Html.DisplayFor(modelItem => item.nome)</strong>
+                        </h6>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="container-fluid pre-scrollable" style="height:90px">
+                            <p><strong>Idade:</strong> @Html.DisplayFor(modelItem => item.idade)</p>
+                            <p><strong>Lutas:</strong> @Html.DisplayFor(modelItem => item.lutas)</p>
+                            <p><strong>Derrotas:</strong> @Html.DisplayFor(modelItem => item.derrotas)</p>
+                            <p><strong>Vitórias:</strong> @Html.DisplayFor(modelItem => item.vitorias)</p>
+                            <p><strong>Artes Marciais:</strong> @Html.DisplayFor(modelItem => item.artesMarciais)</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    }
+
+</div>
+
+@section scripts
+{
+    <script>
+        $(document).ready(function () {
+            $("#submitButton").on("click", function () {
+                if (@Model.Where(m => m.selecionado).Count() != 20) {
+                    alert('Selecione 20 Lutadores!')                
+                }                
+            });
+        });
+    </script>
+}

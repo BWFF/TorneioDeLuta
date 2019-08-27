@@ -1,0 +1,43 @@
+﻿@model IEnumerable<TorneioDeLuta.Modelo.Grupos>
+
+@{
+    ViewBag.Title = "Resultado";
+}
+
+<div class="container">
+    <div class="container">
+        @Html.ActionLink("Voltar","Index","Torneio",null, new
+        {
+            @class = "btn btn-sm btn-primary glyphicon glyphicon-arrow-left center"
+        })
+    </div>
+    <br />
+    <div class="container list-inline">
+        @foreach (var item in Model)
+        {
+            <div class="col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            @switch (item.classificacaoFinal)
+                            {
+                                case 1:<strong> Campeão</strong>
+                                    break;
+                                case 2: <strong> Segundo</strong>
+                                    break;
+                                case 3: <strong> Terceiro</strong>
+                                    break;
+                            }
+
+                        </li>
+                        <li class="list-group-item">
+                            <div class="container-fluid">
+                                <p>@Html.DisplayFor(modelItem => item.nome)</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        }
+    </div>
+</div>

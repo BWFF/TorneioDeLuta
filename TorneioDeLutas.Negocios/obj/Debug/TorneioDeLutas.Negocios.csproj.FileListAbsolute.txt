@@ -1,0 +1,10 @@
+F:\TorneioDeLuta\Torneio\TorneioDeLuta\TorneioDeLutas.Negocios\bin\Debug\TorneioDeLutas.Negocios.dll
+F:\TorneioDeLuta\Torneio\TorneioDeLuta\TorneioDeLutas.Negocios\bin\Debug\TorneioDeLutas.Negocios.pdb
+F:\TorneioDeLuta\Torneio\TorneioDeLuta\TorneioDeLutas.Negocios\obj\Debug\TorneioDeLutas.Negocios.csprojAssemblyReference.cache
+F:\TorneioDeLuta\Torneio\TorneioDeLuta\TorneioDeLutas.Negocios\obj\Debug\TorneioDeLutas.Negocios.csproj.CoreCompileInputs.cache
+F:\TorneioDeLuta\Torneio\TorneioDeLuta\TorneioDeLutas.Negocios\obj\Debug\TorneioDeLutas.Negocios.dll
+F:\TorneioDeLuta\Torneio\TorneioDeLuta\TorneioDeLutas.Negocios\obj\Debug\TorneioDeLutas.Negocios.pdb
+C:\Users\brunow.itgreen\Desktop\TorneioDeLuta\Torneio\TorneioDeLuta\TorneioDeLutas.Negocios\obj\Debug\TorneioDeLutas.Negocios.csprojAssemblyReference.cache
+C:\Users\brunow.itgreen\Desktop\TorneioDeLuta\Torneio\TorneioDeLuta\TorneioDeLutas.Negocios\obj\Debug\TorneioDeLutas.Negocios.csproj.CoreCompileInputs.cache
+C:\Users\brunow.itgreen\Desktop\TorneioDeLuta\Torneio\TorneioDeLuta\TorneioDeLutas.Negocios\obj\Debug\TorneioDeLutas.Negocios.dll
+C:\Users\brunow.itgreen\Desktop\TorneioDeLuta\Torneio\TorneioDeLuta\TorneioDeLutas.Negocios\obj\Debug\TorneioDeLutas.Negocios.pdb

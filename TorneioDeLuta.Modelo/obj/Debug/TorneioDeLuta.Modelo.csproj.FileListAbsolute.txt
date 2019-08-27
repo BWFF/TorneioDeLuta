@@ -1,0 +1,11 @@
+C:\Users\brunow.itgreen\Desktop\TorneioDeLuta\Torneio\TorneioDeLuta\TorneioDeLuta.Modelo\bin\Debug\TorneioDeLuta.Modelo.dll.config
+C:\Users\brunow.itgreen\Desktop\TorneioDeLuta\Torneio\TorneioDeLuta\TorneioDeLuta.Modelo\bin\Debug\TorneioDeLuta.Modelo.dll
+C:\Users\brunow.itgreen\Desktop\TorneioDeLuta\Torneio\TorneioDeLuta\TorneioDeLuta.Modelo\bin\Debug\TorneioDeLuta.Modelo.pdb
+C:\Users\brunow.itgreen\Desktop\TorneioDeLuta\Torneio\TorneioDeLuta\TorneioDeLuta.Modelo\bin\Debug\EntityFramework.dll
+C:\Users\brunow.itgreen\Desktop\TorneioDeLuta\Torneio\TorneioDeLuta\TorneioDeLuta.Modelo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\brunow.itgreen\Desktop\TorneioDeLuta\Torneio\TorneioDeLuta\TorneioDeLuta.Modelo\bin\Debug\EntityFramework.xml
+C:\Users\brunow.itgreen\Desktop\TorneioDeLuta\Torneio\TorneioDeLuta\TorneioDeLuta.Modelo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\brunow.itgreen\Desktop\TorneioDeLuta\Torneio\TorneioDeLuta\TorneioDeLuta.Modelo\obj\Debug\TorneioDeLuta.Modelo.csproj.CoreCompileInputs.cache
+C:\Users\brunow.itgreen\Desktop\TorneioDeLuta\Torneio\TorneioDeLuta\TorneioDeLuta.Modelo\obj\Debug\TorneioDeLuta.Modelo.csproj.CopyComplete
+C:\Users\brunow.itgreen\Desktop\TorneioDeLuta\Torneio\TorneioDeLuta\TorneioDeLuta.Modelo\obj\Debug\TorneioDeLuta.Modelo.dll
+C:\Users\brunow.itgreen\Desktop\TorneioDeLuta\Torneio\TorneioDeLuta\TorneioDeLuta.Modelo\obj\Debug\TorneioDeLuta.Modelo.pdb
