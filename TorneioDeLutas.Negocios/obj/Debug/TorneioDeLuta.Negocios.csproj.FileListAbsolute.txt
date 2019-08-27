@@ -42,3 +42,25 @@ D:\RepositoriosGitHub\TorneioDeLutaPublic\TorneioDeLuta\TorneioDeLutas.Negocios\
 D:\RepositoriosGitHub\TorneioDeLutaPublic\TorneioDeLuta\TorneioDeLutas.Negocios\obj\Debug\TorneioDeLuta.Negocios.csproj.CopyComplete
 D:\RepositoriosGitHub\TorneioDeLutaPublic\TorneioDeLuta\TorneioDeLutas.Negocios\obj\Debug\TorneioDeLutas.Negocios.dll
 D:\RepositoriosGitHub\TorneioDeLutaPublic\TorneioDeLuta\TorneioDeLutas.Negocios\obj\Debug\TorneioDeLutas.Negocios.pdb
+C:\Users\Bruna Luisa\Desktop\Teste\TorneioDeLuta\TorneioDeLutas.Negocios\bin\Debug\TorneioDeLutas.Negocios.dll.config
+C:\Users\Bruna Luisa\Desktop\Teste\TorneioDeLuta\TorneioDeLutas.Negocios\bin\Debug\TorneioDeLutas.Negocios.dll
+C:\Users\Bruna Luisa\Desktop\Teste\TorneioDeLuta\TorneioDeLutas.Negocios\bin\Debug\TorneioDeLutas.Negocios.pdb
+C:\Users\Bruna Luisa\Desktop\Teste\TorneioDeLuta\TorneioDeLutas.Negocios\bin\Debug\EntityFramework.dll
+C:\Users\Bruna Luisa\Desktop\Teste\TorneioDeLuta\TorneioDeLutas.Negocios\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Bruna Luisa\Desktop\Teste\TorneioDeLuta\TorneioDeLutas.Negocios\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Bruna Luisa\Desktop\Teste\TorneioDeLuta\TorneioDeLutas.Negocios\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Bruna Luisa\Desktop\Teste\TorneioDeLuta\TorneioDeLutas.Negocios\bin\Debug\TorneioDeLuta.DTO.dll
+C:\Users\Bruna Luisa\Desktop\Teste\TorneioDeLuta\TorneioDeLutas.Negocios\bin\Debug\TorneioDeLuta.Modelo.dll
+C:\Users\Bruna Luisa\Desktop\Teste\TorneioDeLuta\TorneioDeLutas.Negocios\bin\Debug\TorneioDeLuta.DTO.pdb
+C:\Users\Bruna Luisa\Desktop\Teste\TorneioDeLuta\TorneioDeLutas.Negocios\bin\Debug\TorneioDeLuta.DTO.dll.config
+C:\Users\Bruna Luisa\Desktop\Teste\TorneioDeLuta\TorneioDeLutas.Negocios\bin\Debug\TorneioDeLuta.Modelo.pdb
+C:\Users\Bruna Luisa\Desktop\Teste\TorneioDeLuta\TorneioDeLutas.Negocios\bin\Debug\TorneioDeLuta.Modelo.dll.config
+C:\Users\Bruna Luisa\Desktop\Teste\TorneioDeLuta\TorneioDeLutas.Negocios\bin\Debug\EntityFramework.xml
+C:\Users\Bruna Luisa\Desktop\Teste\TorneioDeLuta\TorneioDeLutas.Negocios\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Bruna Luisa\Desktop\Teste\TorneioDeLuta\TorneioDeLutas.Negocios\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Bruna Luisa\Desktop\Teste\TorneioDeLuta\TorneioDeLutas.Negocios\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Bruna Luisa\Desktop\Teste\TorneioDeLuta\TorneioDeLutas.Negocios\obj\Debug\TorneioDeLuta.Negocios.csprojAssemblyReference.cache
+C:\Users\Bruna Luisa\Desktop\Teste\TorneioDeLuta\TorneioDeLutas.Negocios\obj\Debug\TorneioDeLuta.Negocios.csproj.CoreCompileInputs.cache
+C:\Users\Bruna Luisa\Desktop\Teste\TorneioDeLuta\TorneioDeLutas.Negocios\obj\Debug\TorneioDeLuta.Negocios.csproj.CopyComplete
+C:\Users\Bruna Luisa\Desktop\Teste\TorneioDeLuta\TorneioDeLutas.Negocios\obj\Debug\TorneioDeLutas.Negocios.dll
+C:\Users\Bruna Luisa\Desktop\Teste\TorneioDeLuta\TorneioDeLutas.Negocios\obj\Debug\TorneioDeLutas.Negocios.pdb
